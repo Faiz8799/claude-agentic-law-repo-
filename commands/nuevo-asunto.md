@@ -1,13 +1,13 @@
 ---
-description: Alta completa de un asunto nuevo — conflictos, calificación, plazos y plan de trabajo
-argument-hint: [descripción del encargo y partes]
+description: Full intake of a new matter — conflicts, classification, deadlines and work plan
+argument-hint: [description of the engagement and parties]
 ---
 
-Da de alta el siguiente asunto: $ARGUMENTS
+Open the following matter: $ARGUMENTS
 
-Sigue el flujo estándar del despacho:
-1. `conflict-check` sobre todas las partes. Si hay conflicto insalvable, para y explica.
-2. `legal-orchestrator` califica: orden jurisdiccional, materia, jurisdicción, urgencia.
-3. Si hay fechas relevantes, `plazos-procesales` genera el calendario del asunto.
-4. Lista la información que falta del cliente antes de trabajar (`[PENDIENTE: ...]`).
-5. Entrega: ficha del asunto + plan de trabajo con especialistas propuestos, responsable y fechas.
+Follow the firm's standard workflow:
+1. `conflict-check` on all parties. If there is an unwaivable conflict, stop and explain.
+2. `legal-orchestrator` classifies: area of law, subject matter, jurisdiction, urgency.
+3. If there are relevant dates, `plazos-procesales` generates the matter's calendar.
+4. List the information still missing from the client before starting work (`[PENDING: ...]`).
+5. Deliverable: matter profile + work plan with proposed specialists, owner and dates.

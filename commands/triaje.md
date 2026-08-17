@@ -1,11 +1,11 @@
 ---
-description: Filtrar casos entrantes — dictamen aceptar/derivar/rechazar con plazos y scoring
-argument-hint: [descripción del caso, ruta a carpeta de consultas, o pega los emails]
+description: Filter incoming cases — accept/refer/decline opinion with deadlines and scoring
+argument-hint: [description of the case, path to the inquiries folder, or paste the emails]
 ---
 
-Actúa el flujo de triaje de casos entrantes sobre: $ARGUMENTS
+Run the incoming-case triage workflow on: $ARGUMENTS
 
-1. Si es una ruta o carpeta, lee todos los documentos que contenga; cada documento o email es un caso candidato.
-2. Delega el análisis en el agente `triaje-asuntos` (que a su vez lanza `conflict-check`).
-3. Devuelve la tabla-resumen ordenada por urgencia de plazos y scoring, con las fichas individuales debajo.
-4. Para cada caso RECHAZADO o DERIVADO, ofrece redactar la carta de no aceptación con advertencia de plazos.
+1. If it is a path or folder, read every document it contains; each document or email is a candidate case.
+2. Delegate the analysis to the `triaje-asuntos` agent (which in turn launches `conflict-check`).
+3. Return the summary table sorted by deadline urgency and scoring, with the individual profiles below.
+4. For each DECLINED or REFERRED case, offer to draft the non-engagement letter with a deadlines warning.
