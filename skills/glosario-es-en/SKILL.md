@@ -1,27 +1,27 @@
 ---
 name: glosario-es-en
-description: Terminología jurídica bilingüe español-inglés con equivalencia funcional y falsos amigos. Úsala en toda documentación bilingüe o con contrapartes extranjeras.
+description: Bilingual Spanish-English legal terminology with functional equivalence and false friends. Use it in all bilingual documentation or documentation involving foreign counterparties.
 ---
 
-# Glosario jurídico ES/EN
+# ES/EN Legal Glossary
 
-## Principio
-Traduce **la función jurídica**, no la palabra. Si no hay equivalente, mantén el original en cursiva con nota explicativa.
+## Principle
+Translate **the legal function**, not the word. If there is no equivalent, keep the original in italics with an explanatory note.
 
-## Falsos amigos críticos
-| Inglés | Trampa | Tratamiento |
+## Critical false friends
+| English | Trap | Treatment |
 |---|---|---|
-| Consideration | No es "consideración" | Contraprestación; figura sin equivalente exacto en derecho español |
-| Equity | No es "equidad" en sentido del art. 3.2 CC | Explicar o mantener |
-| Trust | No existe en derecho común español | Mantener con nota |
-| Warranty / Representation | Se confunden | Garantía / manifestación: régimen distinto |
-| Indemnity | No es "indemnización" sin más | Obligación de mantener indemne |
-| Best / reasonable endeavours | Grados distintos de exigibilidad | Explicitar el estándar en español |
-| Damages | No es "daños" | Indemnización de daños y perjuicios |
-| Discovery | Sin equivalente procesal español | Mantener con nota |
+| Consideration | Not "consideración" | Contraprestación; a concept with no exact equivalent in Spanish law |
+| Equity | Not "equidad" in the sense of art. 3.2 CC | Explain or keep as is |
+| Trust | Does not exist in Spanish civil law | Keep with a note |
+| Warranty / Representation | Often confused | Garantía / manifestación: distinct legal regimes |
+| Indemnity | Not simply "indemnización" | Obligation to hold harmless |
+| Best / reasonable endeavours | Different degrees of enforceability | Spell out the standard in Spanish |
+| Damages | Not "daños" | Indemnización de daños y perjuicios |
+| Discovery | No equivalent in Spanish procedural law | Keep with a note |
 
-## Equivalencias frecuentes
+## Common equivalences
 sociedad de responsabilidad limitada → private limited company · junta general → general meeting · administrador único → sole director · escritura pública → public deed · registro mercantil → commercial registry · fuero → jurisdiction · resolución del contrato → termination · nulidad → nullity/voidness · caducidad → lapse/expiry · prescripción → statute of limitations.
 
-## Regla
-Mantén el glosario de decisiones al final del documento traducido. Y advierte cuando se requiera **traducción jurada**: esta no lo es.
+## Rule
+Keep the glossary of choices at the end of the translated document. And warn whenever a **sworn/certified translation** is required: this is not one.

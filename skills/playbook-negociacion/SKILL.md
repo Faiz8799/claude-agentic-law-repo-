@@ -1,36 +1,36 @@
 ---
 name: playbook-negociacion
-description: Posiciones estándar del despacho o del cliente cláusula por cláusula, con posición ideal, aceptable y línea roja. Úsala en toda negociación contractual y al preparar contrapropuestas.
+description: The firm's or the client's standard positions clause by clause, with an ideal position, an acceptable position and a red line. Use it in every contract negotiation and when preparing counterproposals.
 ---
 
-# Playbook de negociación
+# Negotiation Playbook
 
-## Estructura por cláusula
-| Cláusula | Ideal | Aceptable | Línea roja | Argumento | ¿Esencial? |
+## Structure by clause
+| Clause | Ideal | Acceptable | Red line | Argument | Essential? |
 
-## Posiciones de referencia
+## Reference positions
 
-**Limitación de responsabilidad**
-- Ideal: límite al precio de los últimos 12 meses, exclusión de daños indirectos
-- Aceptable: límite al precio total del contrato
-- Línea roja: responsabilidad ilimitada sin excepción
-- Nunca limitable: dolo, culpa grave, daños personales, y lo que la ley declare indisponible
+**Limitation of liability**
+- Ideal: capped at the fees of the last 12 months, exclusion of indirect damages
+- Acceptable: capped at the total contract price
+- Red line: unlimited liability with no exception
+- Never limitable: wilful misconduct (dolo), gross negligence, personal injury, and whatever the law declares non-waivable
 
-**Indemnidad**
-- Ideal: recíproca, limitada, con control de la defensa
-- Línea roja: indemnidad unilateral e ilimitada
+**Indemnity**
+- Ideal: mutual, capped, with control over the defence
+- Red line: unilateral and unlimited indemnity
 
-**Resolución unilateral**
-- Ideal: recíproca, con preaviso razonable
-- Línea roja: resolución libre por la contraparte sin preaviso ni compensación
+**Unilateral termination**
+- Ideal: mutual, with reasonable notice
+- Red line: free termination by the counterparty with no notice or compensation
 
-**Propiedad intelectual en desarrollos**
-- Ideal: titularidad del cliente sobre el entregable, licencia sobre lo preexistente
-- Línea roja: cesión del know-how o de herramientas preexistentes
+**Intellectual property in developments**
+- Ideal: client ownership of the deliverable, licence over pre-existing materials
+- Red line: assignment of know-how or of pre-existing tools
 
-**Exclusividad y no competencia**
-- Ideal: sin exclusividad; si la hay, con objetivos mínimos y duración limitada
-- Línea roja: exclusividad indefinida sin contraprestación
+**Exclusivity and non-compete**
+- Ideal: no exclusivity; if there is one, with minimum targets and a limited term
+- Red line: indefinite exclusivity with no consideration
 
-## Regla de negociación
-Clasifica cada punto como **esencial** o **moneda de cambio** antes de empezar. Ceder sin obtener nada a cambio enseña a la contraparte que puede seguir pidiendo.
+## Negotiation rule
+Classify each point as **essential** or **bargaining chip** before starting. Conceding without getting anything in return teaches the counterparty that it can keep asking.

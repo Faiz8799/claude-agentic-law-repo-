@@ -1,27 +1,27 @@
 ---
 name: checklist-rgpd
-description: Listas de verificación de cumplimiento en protección de datos: RAT, EIPD, encargados, transferencias, derechos y brechas. Úsala siempre que un asunto implique tratamiento de datos personales, aunque no sea el objeto principal.
+description: Data protection compliance checklists — records of processing activities, DPIAs, processor arrangements, transfers, rights and breaches. Use it whenever a matter involves the processing of personal data, even if that is not the main subject.
 ---
 
-# Checklist RGPD / LOPDGDD
+# GDPR / LOPDGDD Checklist
 
-## Registro de actividades (art. 30)
-Por cada tratamiento: finalidad · base de legitimación (art. 6) · categorías de datos · categorías de interesados · destinatarios · transferencias internacionales · plazo de conservación · medidas de seguridad.
+## Record of processing activities (Art. 30)
+For each processing operation: purpose · legal basis (Art. 6) · categories of data · categories of data subjects · recipients · international transfers · retention period · security measures.
 
-## Base de legitimación
-Consentimiento (libre, específico, informado, inequívoco, revocable) · ejecución de contrato · obligación legal · interés vital · interés público · interés legítimo (**exige ponderación documentada**).
+## Legal basis
+Consent (freely given, specific, informed, unambiguous, revocable) · performance of a contract · legal obligation · vital interest · public interest · legitimate interest (**requires a documented balancing test**).
 
-## Cuándo es obligatoria una EIPD
-Categorías especiales a gran escala · decisiones automatizadas con efectos jurídicos · observación sistemática de zonas públicas · uso de tecnologías innovadoras · elaboración de perfiles · datos de menores a gran escala.
+## When a DPIA is mandatory
+Special categories processed at scale · automated decisions with legal effects · systematic monitoring of publicly accessible areas · use of innovative technologies · profiling · large-scale processing of children's data.
 
-## Encargado del tratamiento (art. 28)
-Contrato escrito · objeto, duración, naturaleza y finalidad · instrucciones documentadas · confidencialidad del personal · medidas de seguridad · autorización de subencargados · asistencia al responsable · devolución o supresión al final · auditorías.
+## Processor (Art. 28)
+Written contract · subject matter, duration, nature and purpose · documented instructions · confidentiality of personnel · security measures · authorisation of sub-processors · assistance to the controller · return or deletion at the end · audits.
 
-## Transferencias fuera del EEE
-Decisión de adecuación · o CCT + evaluación de impacto de la transferencia · o normas corporativas vinculantes · o excepción del art. 49 (interpretación restrictiva).
+## Transfers outside the EEA
+Adequacy decision · or SCCs + transfer impact assessment · or binding corporate rules · or the Art. 49 derogation (restrictive interpretation).
 
-## Brechas
-Evaluación de riesgo · notificación a la AEPD en **72 h** si hay riesgo · comunicación a interesados si el riesgo es alto · registro interno **siempre**, aunque no se notifique.
+## Breaches
+Risk assessment · notification to the AEPD (Spanish DPA) within **72 hours** if there is risk · communication to data subjects if the risk is high · internal record **always**, even if not notified.
 
-## Derechos
-Acceso, rectificación, supresión, limitación, portabilidad, oposición, decisiones automatizadas. Plazo: 1 mes, prorrogable 2 más. Procedimiento documentado y verificación de identidad.
+## Rights
+Access, rectification, erasure, restriction, portability, objection, automated decisions. Time limit: 1 month, extendable by 2 more. Documented procedure and identity verification.
