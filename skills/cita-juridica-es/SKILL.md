@@ -1,35 +1,35 @@
 ---
 name: cita-juridica-es
-description: Normas de cita de legislación y jurisprudencia españolas y de la UE: ECLI, ROJ, referencias BOE, resoluciones administrativas. Úsala SIEMPRE que se vaya a citar una norma o una sentencia en cualquier documento jurídico, aunque el usuario no lo pida expresamente.
+description: Citation rules for Spanish and EU legislation and case law — ECLI, ROJ, BOE references, administrative rulings. Use it ALWAYS when a statute or a judgment is going to be cited in any legal document, even if the user does not explicitly ask for it.
 ---
 
-# Cita jurídica española y europea
+# Spanish and European Legal Citation
 
-## Legislación estatal
-`Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas` (BOE-A-2015-10565), art. 21.3.
+## National legislation
+`Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas` (Act 39/2015 on the Common Administrative Procedure of Public Authorities) (BOE-A-2015-10565), art. 21.3.
 
-- Primera mención: denominación completa + identificador BOE.
-- Siguientes: forma abreviada (LPAC, LEC, TRLGDCU, LSC...).
-- Textos refundidos: cita el Real Decreto Legislativo que los aprueba.
-- **Siempre texto consolidado** y siempre con la redacción vigente en la fecha de los hechos.
+- First mention: full name + BOE identifier.
+- Subsequent mentions: abbreviated form (LPAC, LEC, TRLGDCU, LSC...).
+- Consolidated/recast texts: cite the Royal Legislative Decree that approves them.
+- **Always the consolidated text**, and always in the wording in force on the date of the facts.
 
-## Jurisprudencia española
+## Spanish case law
 `STS (Sala 1.ª, Secc. 1.ª) núm. 123/2024, de 15 de marzo, rec. 4567/2021, ECLI:ES:TS:2024:1234`
 
-Elementos: órgano | sala y sección | número y año | fecha | número de recurso | ECLI | ponente (si es relevante) | ROJ (localización en CENDOJ).
+Elements: court/chamber | division and section | number and year | date | appeal number | ECLI | rapporteur judge (if relevant) | ROJ (CENDOJ locator).
 
-## Jurisprudencia europea
-- TJUE: `STJUE de 3 de octubre de 2019, Planet49, C-673/17, ECLI:EU:C:2019:801`
-- TEDH: asunto, número de demanda y fecha.
+## European case law
+- CJEU: `STJUE de 3 de octubre de 2019, Planet49, C-673/17, ECLI:EU:C:2019:801`
+- ECtHR: case name, application number and date.
 
-## Doctrina administrativa
-- DGT: consulta vinculante V0123-24
-- AEPD: procedimiento PS/00123/2024
-- TACRC: Resolución núm. 123/2024
-- DGSJFP: resolución con fecha y BOE de publicación
+## Administrative doctrine
+- DGT (Directorate-General for Taxation): binding ruling V0123-24
+- AEPD (Spanish DPA): proceeding PS/00123/2024
+- TACRC (Central Administrative Court for Contractual Appeals): Resolution No. 123/2024
+- DGSJFP (Directorate-General for Legal Certainty and Public Faith): resolution with date and BOE publication
 
-## Reglas innegociables
-1. Toda cita debe ser **localizable**. Si no puedes verificarla, escribe NO LOCALIZADO.
-2. Nunca reconstruyas de memoria un número de recurso, un ECLI o una fecha.
-3. Indica siempre si la doctrina está consolidada, es mayoritaria o es aislada.
-4. Al citar un precepto, indica apartado y párrafo concretos.
+## Non-negotiable rules
+1. Every citation must be **locatable**. If you cannot verify it, write NOT LOCATED.
+2. Never reconstruct an appeal number, an ECLI or a date from memory.
+3. Always state whether the doctrine is settled, majority, or isolated.
+4. When citing a provision, indicate the specific subsection and paragraph.

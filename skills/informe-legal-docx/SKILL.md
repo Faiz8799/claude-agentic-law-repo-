@@ -1,31 +1,31 @@
 ---
 name: informe-legal-docx
-description: Generación del entregable final en Word con formato profesional de despacho. Úsala cuando el resultado deba enviarse al cliente como documento formal en lugar de texto en pantalla.
+description: Generation of the final Word deliverable with the firm's professional formatting. Use it when the result must be sent to the client as a formal document rather than as on-screen text.
 ---
 
-# Informe legal en Word
+# Legal Report in Word
 
-Consulta la skill `docx` para la mecánica de generación del archivo. Esta skill define **la estructura y el estilo del documento jurídico**.
+See the `docx` skill for the mechanics of generating the file. This skill defines **the structure and style of the legal document**.
 
-## Estructura
-1. Portada: destinatario, asunto, fecha, referencia interna, carácter confidencial
-2. **Resumen ejecutivo** (máx. 1 página): conclusión, riesgos principales, recomendación. Debe poder leerse solo.
-3. Antecedentes y objeto del informe
-4. Documentación e información analizada
-5. Análisis jurídico, por bloques
-6. Conclusiones numeradas
-7. Recomendaciones con responsable y plazo
-8. Limitaciones y advertencias
-9. Anexos
+## Structure
+1. Cover page: recipient, matter, date, internal reference, confidential marking
+2. **Executive summary** (max. 1 page): conclusion, main risks, recommendation. Must be readable on its own.
+3. Background and purpose of the report
+4. Documentation and information analysed
+5. Legal analysis, by section
+6. Numbered conclusions
+7. Recommendations with owner and deadline
+8. Limitations and warnings
+9. Annexes
 
-## Estilo
-- Párrafos numerados de forma correlativa para permitir remisión precisa.
-- Citas normativas a pie de página, no en el cuerpo.
-- Tablas para riesgos y para comparativas.
-- Sin negrita decorativa: solo cifras, plazos y conclusiones.
+## Style
+- Paragraphs numbered consecutively to allow precise cross-referencing.
+- Statutory citations in footnotes, not in the body text.
+- Tables for risks and for comparisons.
+- No decorative bold: only figures, deadlines and conclusions.
 
-## Cierre obligatorio
-- Fecha de corte del análisis normativo
-- Alcance y limitaciones (qué no se ha analizado y por qué)
-- Advertencia de que el documento requiere revisión y asunción por letrado colegiado
-- Confidencialidad y prohibición de difusión a terceros
+## Mandatory closing
+- Regulatory cut-off date of the analysis
+- Scope and limitations (what has not been analysed and why)
+- Warning that the document requires review and adoption by a qualified lawyer
+- Confidentiality and prohibition on disclosure to third parties

@@ -1,24 +1,24 @@
 ---
 name: estructura-escritos
-description: Formato de escritos procesales ante juzgados y tribunales españoles: demanda, contestación, recursos y otrosíes. Úsala siempre que haya que redactar un escrito dirigido a un órgano judicial.
+description: Format for procedural pleadings before Spanish courts and tribunals — claims, statements of defence, appeals and otrosí requests. Use it always when a pleading addressed to a judicial body must be drafted.
 ---
 
-# Estructura de escritos procesales
+# Structure of Procedural Pleadings
 
-## Esqueleto
-1. **Encabezamiento**: órgano destinatario, procedimiento y número de autos, procurador con poder, letrado con número de colegiado, parte representada.
-2. **DIGO / EXPONGO**
-3. **HECHOS**: ordinales romanos o cardinales, uno por hecho, cronológicos, cada uno con remisión al documento que lo acredita (Documento nº X).
-4. **FUNDAMENTOS DE DERECHO**:
-   - Procesales: jurisdicción, competencia objetiva y territorial, capacidad, legitimación, postulación, procedimiento adecuado, cuantía, costas.
-   - Sustantivos: norma aplicable, subsunción de los hechos, jurisprudencia de apoyo.
-5. **SUPLICO**: petición precisa, completa y ejecutable.
-6. **OTROSÍES**: proposición de prueba, medidas cautelares, solicitud de subsanación, costas.
-7. Lugar, fecha y firmas.
+## Skeleton
+1. **Heading**: addressee court, proceedings and case number, court agent (procurador) with power of attorney, lawyer with bar number, represented party.
+2. **DIGO / EXPONGO** (statement of purpose)
+3. **FACTS**: Roman or cardinal numerals, one per fact, chronological, each with a reference to the document that supports it (Document No. X).
+4. **LEGAL GROUNDS**:
+   - Procedural: jurisdiction, subject-matter and territorial competence, capacity, standing, legal representation, appropriate procedure, amount in dispute, costs.
+   - Substantive: applicable rule, subsumption of the facts, supporting case law.
+5. **PRAYER FOR RELIEF (SUPLICO)**: precise, complete and enforceable request.
+6. **OTROSÍ REQUESTS**: offer of evidence, interim measures, request for correction, costs.
+7. Place, date and signatures.
 
-## Reglas
-- **Redacta el suplico primero.** Define qué hay que probar y qué hay que fundamentar.
-- Lo que no se pide no se concede: revisa que el suplico agote la pretensión.
-- Cada hecho relevante necesita su prueba. Hecho sin prueba = hecho perdido.
-- Coherencia estricta hechos ↔ fundamentos ↔ suplico.
-- Comprueba el plazo antes de redactar y hazlo constar en la primera línea del encargo interno.
+## Rules
+- **Draft the prayer for relief first.** It defines what must be proven and what must be argued.
+- What is not requested is not granted: check that the prayer for relief exhausts the claim.
+- Every relevant fact needs its evidence. A fact without evidence is a fact lost.
+- Strict consistency between facts ↔ legal grounds ↔ prayer for relief.
+- Check the deadline before drafting and record it in the first line of the internal work order.

@@ -1,10 +1,10 @@
 ---
-description: Extraer y calendarizar todos los plazos de un asunto o documento
-argument-hint: [ruta a documento/carpeta del asunto, o describe las fechas clave]
+description: Extract and calendar all deadlines for a matter or document
+argument-hint: [path to the matter's document/folder, or describe the key dates]
 ---
 
-Extrae y calendariza los plazos de: $ARGUMENTS
+Extract and calendar the deadlines for: $ARGUMENTS
 
-1. Delega en `plazos-procesales`: identifica cada plazo (procesal, prescripción, caducidad, contractual), su día inicial, cómputo (hábiles/naturales, agosto, sede electrónica) y fecha límite.
-2. Marca los que venzan en menos de 15 días con ⚠️ en cabecera.
-3. Entrega: tabla de plazos ordenada por fecha + texto listo para pegar en el calendario del despacho, con margen de seguridad interno de 2 días antes de cada vencimiento.
+1. Delegate to `plazos-procesales`: identify each deadline (procedural, limitation, lapse, contractual), its starting day, computation method (business/calendar days, August, e-filing), and due date.
+2. Flag with ⚠️ in the header any deadline due in under 15 days.
+3. Deliverable: table of deadlines sorted by date + text ready to paste into the firm's calendar, with an internal 2-day safety margin before each due date.

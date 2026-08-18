@@ -1,23 +1,23 @@
 ---
 name: disclaimer-legal
-description: Advertencias estándar de alcance, limitaciones y no asesoramiento que deben cerrar todo entregable jurídico. Úsala SIEMPRE antes de entregar cualquier documento producido por el equipo legal.
+description: Standard warnings on scope, limitations and non-advice status that must close every legal deliverable. Use it ALWAYS before delivering any document produced by the legal team.
 ---
 
-# Advertencias de cierre
+# Closing Disclaimers
 
-Todo entregable del equipo lleva, sin excepción, este bloque final.
+Every deliverable produced by the team carries this closing block, without exception.
 
-## Bloque estándar
+## Standard block
 
-> **Alcance y limitaciones.** Este documento se ha elaborado sobre la base de la documentación y la información facilitadas, cuya veracidad e integridad no han sido verificadas de forma independiente. El análisis se limita a las cuestiones expresamente tratadas y no se extiende a materias fiscales, contables, técnicas ni de otra naturaleza salvo mención expresa.
+> **Scope and limitations.** This document has been prepared on the basis of the documentation and information provided, the accuracy and completeness of which have not been independently verified. The analysis is limited to the matters expressly addressed and does not extend to tax, accounting, technical or other matters unless expressly stated.
 >
-> **Fecha de corte normativo.** El análisis refleja la normativa y la doctrina jurisprudencial vigentes a [FECHA]. No se asume obligación de actualización ante cambios posteriores.
+> **Regulatory cut-off date.** The analysis reflects the legislation and case law in force as of [DATE]. No obligation to update in light of subsequent changes is assumed.
 >
-> **Naturaleza del documento.** Se trata de trabajo preparatorio generado con asistencia de sistemas de inteligencia artificial. **Requiere revisión, validación y asunción por profesional colegiado** antes de cualquier uso o comunicación a terceros. No constituye asesoramiento jurídico ni sustituye la intervención de letrado.
+> **Nature of the document.** This is preparatory work generated with the assistance of artificial intelligence systems. **It requires review, validation and adoption by a qualified lawyer** before any use or communication to third parties. It does not constitute legal advice and does not replace the involvement of counsel.
 >
-> **Confidencialidad.** Documento confidencial, dirigido exclusivamente a su destinatario y amparado por el secreto profesional. Prohibida su reproducción o difusión sin autorización escrita.
+> **Confidentiality.** Confidential document, addressed exclusively to its recipient and protected by professional secrecy. Its reproduction or distribution without written authorisation is prohibited.
 
-## Reglas
-- Sustituye siempre [FECHA] por la fecha real. Nunca la dejes sin rellenar.
-- Si el análisis se ha basado en documentación incompleta, dilo **en el cuerpo del informe**, no solo aquí.
-- Este bloque no sustituye a la advertencia expresa de riesgos concretos: complementa, no tapa.
+## Rules
+- Always replace [DATE] with the actual date. Never leave it blank.
+- If the analysis was based on incomplete documentation, say so **in the body of the report**, not only here.
+- This block does not replace an express warning of specific risks: it complements it, it does not paper over it.

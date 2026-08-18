@@ -1,33 +1,33 @@
-# Claude Legal — reglas del proyecto
+# Claude Legal — Project Rules
 
-Equipo de subagentes y skills para trabajo jurídico. Jurisdicción por defecto: **España y Unión Europea**.
+Team of subagents and skills for legal work. Default jurisdiction: **Spain and the European Union**.
 
-## Reglas innegociables
+## Non-negotiable rules
 
-1. **Cero invención.** Ningún agente cita una norma, sentencia, número de recurso o ECLI que no pueda verificar. Si no lo localiza, escribe `NO LOCALIZADO`. Una cita inventada destruye el asunto y la credibilidad del despacho.
-2. **Verificación obligatoria.** Ningún documento sale sin pasar por `verificador-citas`. Tiene poder de veto y su veredicto no se negocia por presión de plazo.
-3. **Conflictos primero.** `conflict-check` corre antes que cualquier trabajo sustantivo en un asunto nuevo.
-4. **Plazos siempre.** En cuanto aparece una fecha relevante, entra `plazos-procesales`. Un plazo perdido no se recupera.
-5. **Datos protegidos.** Nada sale del entorno sin pasar por `anonimizador`. Secreto profesional y RGPD.
-6. **Fecha de corte.** Todo entregable indica la fecha hasta la que se ha verificado la normativa.
-7. **Revisión humana.** Todo output es trabajo preparatorio. Requiere revisión y asunción por letrado colegiado. No es asesoramiento jurídico.
-8. **Hechos no supuestos.** Lo que no te han dicho se marca `[PENDIENTE: ...]`. Nunca se rellena con lo que parece razonable.
+1. **Zero invention.** No agent cites a statute, judgment, appeal number or ECLI that it cannot verify. If it cannot be located, write `NOT LOCATED`. A fabricated citation destroys the matter and the firm's credibility.
+2. **Mandatory verification.** No document goes out without passing through `verificador-citas`. It has veto power and its verdict is not negotiable under deadline pressure.
+3. **Conflicts first.** `conflict-check` runs before any substantive work on a new matter.
+4. **Deadlines always.** As soon as a relevant date appears, `plazos-procesales` steps in. A missed deadline cannot be recovered.
+5. **Protected data.** Nothing leaves the environment without passing through `anonimizador`. Professional secrecy and GDPR.
+6. **Cut-off date.** Every deliverable states the date through which the applicable legislation has been verified.
+7. **Human review.** All output is preparatory work. It requires review and adoption by a qualified lawyer. It is not legal advice.
+8. **Facts, not assumptions.** Whatever you have not been told is marked `[PENDING: ...]`. Never filled in with what seems reasonable.
 
-## Flujo estándar
+## Standard workflow
 
 ```
-(caso entrante) triaje-asuntos → conflict-check → legal-orchestrator → [especialistas en paralelo]
-                                              → contradictor → verificador-citas → entrega
+(incoming case) triaje-asuntos → conflict-check → legal-orchestrator → [specialists in parallel]
+                                              → contradictor → verificador-citas → delivery
 ```
 
-## Estructura
+## Structure
 
-- `agents/` — 45 subagentes. Copiar a `.claude/agents/` (proyecto) o `~/.claude/agents/` (global).
-- `skills/` — 10 skills. Copiar a `.claude/skills/`.
-- `commands/` — 8 comandos slash con los flujos completos. Copiar a `.claude/commands/`.
+- `agents/` — 45 subagents. Copy to `.claude/agents/` (project) or `~/.claude/agents/` (global).
+- `skills/` — 10 skills. Copy to `.claude/skills/`.
+- `commands/` — 8 slash commands with the complete workflows. Copy to `.claude/commands/`.
 
-## Nota sobre el número de agentes activos
+## Note on the number of active agents
 
-El orquestador decide a quién delegar leyendo el campo `description`. Con 44 candidatos cargados a la vez, el enrutado se degrada. Mantén activo el núcleo y carga los verticales según el asunto.
+The orchestrator decides who to delegate to by reading the `description` field. With 44 candidates loaded at once, routing degrades. Keep the core active and load the verticals as needed for each matter.
 
-**Núcleo recomendado (13):** legal-orchestrator, triaje-asuntos, legal-researcher, verificador-citas, conflict-check, contract-drafter, contract-reviewer, redline-negotiator, contradictor, compliance-officer, plazos-procesales, anonimizador, plain-language.
+**Recommended core (13):** legal-orchestrator, triaje-asuntos, legal-researcher, verificador-citas, conflict-check, contract-drafter, contract-reviewer, redline-negotiator, contradictor, compliance-officer, plazos-procesales, anonimizador, plain-language.

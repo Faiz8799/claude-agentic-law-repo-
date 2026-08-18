@@ -1,31 +1,32 @@
 ---
 name: extraccion-documental
-description: Conversión de documentación jurídica en PDF o escaneada a datos estructurados para due diligence y revisión masiva. Úsala cuando haya que analizar volumen documental y extraer hallazgos de forma sistemática.
+description: Conversion of legal documentation in PDF or scanned form into structured data for due diligence and mass review. Use it when a volume of documents must be analysed and findings extracted systematically.
 ---
 
-# Extracción documental
+# Document Extraction
 
-## Proceso
-1. **Inventario**: lista todos los archivos con tipo, fecha, partes y estado (firmado / borrador / ilegible).
-2. **Clasificación** por área: societario · contratos · laboral · inmobiliario · financiación · IP · litigios · licencias · datos · fiscal.
-3. **Extracción** por documento:
-   - Partes y firmantes
-   - Fecha de firma y de entrada en vigor
-   - Objeto
-   - Duración, prórroga y preaviso
-   - Importes y forma de pago
-   - Garantías y avales
-   - Cambio de control
-   - Exclusividad y no competencia
-   - Limitación de responsabilidad
-   - Ley aplicable y fuero
-   - Anexos referenciados y si están presentes
-4. **Cruce**: contrasta lo extraído con el inventario para detectar lo que falta.
+## Process
+1. **Inventory**: list every file with type, date, parties and status (signed / draft / illegible).
+2. **Classification** by area: corporate · contracts · employment · real estate · financing · IP · litigation · licensing · data protection · tax.
+3. **Extraction** per document:
+   - Parties and signatories
+   - Signature date and effective date
+   - Subject matter
+   - Term, renewal and notice period
+   - Amounts and payment terms
+   - Guarantees and security
+   - Change of control
+   - Exclusivity and non-compete
+   - Limitation of liability
+   - Governing law and forum
+   - Referenced annexes and whether they are present
 
-## Salida
-Tabla estructurada, un documento por fila, con enlace a la ubicación exacta (archivo y página).
+4. **Cross-check**: compare the extracted data against the inventory to detect what is missing.
 
-## Reglas
-- Cita siempre archivo y página. Un hallazgo sin ubicación es inútil.
-- Marca **[ILEGIBLE]** y **[NO ENCONTRADO]** de forma explícita. Nunca rellenes huecos con lo que parece razonable.
-- Señala los anexos referenciados que no están en el data room: son la laguna más frecuente.
+## Output
+Structured table, one document per row, with a link to the exact location (file and page).
+
+## Rules
+- Always cite the file and page. A finding without a location is useless.
+- Explicitly mark **[ILLEGIBLE]** and **[NOT FOUND]**. Never fill gaps with what seems reasonable.
+- Flag referenced annexes that are not in the data room: this is the most common gap.

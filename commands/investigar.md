@@ -1,11 +1,11 @@
 ---
-description: Investigación jurídica con citas verificadas y fecha de corte
-argument-hint: [cuestión jurídica a investigar]
+description: Legal research with verified citations and a cut-off date
+argument-hint: [legal question to research]
 ---
 
-Investiga: $ARGUMENTS
+Research: $ARGUMENTS
 
-1. Delega en `legal-researcher`: normativa aplicable, jurisprudencia relevante, doctrina si aporta.
-2. En asuntos con contraparte, pide a `contradictor` los mejores argumentos en contra.
-3. TODO pasa por `verificador-citas`. Lo no verificable se marca `NO LOCALIZADO` — jamás se entrega una cita sin verificar.
-4. Entrega: conclusión primero, análisis fundado, argumentos en contra y cómo responderlos, fecha de corte normativo.
+1. Delegate to `legal-researcher`: applicable legislation, relevant case law, and legal scholarship where it adds value.
+2. In matters with an opposing party, ask `contradictor` for the strongest counterarguments.
+3. EVERYTHING goes through `verificador-citas`. Whatever cannot be verified is marked `NOT LOCATED` — a citation is never delivered unverified.
+4. Deliverable: conclusion first, reasoned analysis, counterarguments and how to answer them, regulatory cut-off date.
